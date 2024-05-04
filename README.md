@@ -9,7 +9,7 @@ This repository is poetry-enabled. To get started, run the following commands:
 ```bash
 poetry lock
 poetry install --no-cache
-
+```
 
 ## Usage
 
@@ -20,7 +20,7 @@ To run the script with poetry, use the following command:
 
 ```python
 poetry run python create_database.py <path-to-csv-file>
-
+```
 
 ### Running the Task Queries
 
@@ -28,8 +28,9 @@ Each of the task queries relies on the database being built, so we recommend run
 
 ```python
 poetry run python task_a.py
-
+```
 or
 
 ```python
 poetry run python task_b.py
+```
