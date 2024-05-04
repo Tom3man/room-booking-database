@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "room_booking"
+version = "0.1.0"
+description = ""
+authors = ["Tom <tomrfreeman3@gmail.com>"]
+readme = "README.md"
+packages = [{include = "room_booking"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
